@@ -1,0 +1,330 @@
+/*GLOBAL*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --main-color: #0a0b32;
+    --bg: #d8e2d0;
+}
+
+* {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: o.2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body {
+    background: var(--bg);
+}
+
+section {
+    padding: 2rem 7%;
+}
+
+.heading {
+    text-align: center;
+    color: #0a0b32;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: #173424;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    letter-spacing: 0.2rem;
+}
+
+/*HEADER*/
+
+.header {
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: #173424;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 6.5rem;
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover {
+    color:#22ac00;
+    border-bottom: 0.1rem solid #22ac00;
+    padding-bottom: 0.5rem;
+}
+
+/*HOME*/
+.home {
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background-image: url("img\Capa(atras).jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.home .content {
+    max-width: 60rem;
+    position: relative;
+    z-index: 2;
+}
+
+.home .content h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.home .content p {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem, 0;
+    color: #fff;
+}
+
+/*ABOUT/SERVIÇOS*/  
+.about .row {
+    display: flex;
+    align-items: center;
+    background: #f2feff;
+    flex-wrap: wrap;
+    border: #173424;
+}
+
+.about .row .image {
+    flex: 1 1 45rem;
+}
+
+.about .row .image .img {
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about .row .content h2 {
+    font-size: 4.5rem;
+}
+
+.about .row .content h3 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color: black;
+}
+
+.about .row .content h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    color: black;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+/*HISTÓRIA/QUEM SOMOS*/
+.historia .content {
+    align-items: center;
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+}
+
+.historia .content h1 {
+    font-size: 4.5rem;
+}
+
+.historia .content p {
+    font-size: 1.6rem;
+}
+
+/*FOOTER*/
+.heading-footer {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.footer {
+    background: #0a0b32;
+    text-align: center;
+    padding: 4rem, 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+.footer-col {
+    flex: 1 1 25rem;
+    margin: 1rem;
+}
+
+.footer-col h4 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-col ul li a {
+    color: #b4b4b4;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: green;
+}
+
+.footer .footer-col .social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.footer .footer-col .social-links a {
+    color: #b4b4b4;
+    font-size: 3rem;
+    transition: color 0.3s;
+}
+
+.footer .footer-col .social-links a:hover {
+    color: green;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: #b4b4b4;
+}
+
+/* medias queries - Responsividade */
+
+/* @media (condição) {
+Estilos que seram aplicados se a condição for verdadeira
+} */
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3 {
+        font-size: 4.5rem;
+    }
+
+    .home .content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}

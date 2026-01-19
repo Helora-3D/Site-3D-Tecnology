@@ -144,6 +144,12 @@ section {
     color: #fff;
 }
 
+.about .content .link {
+    color:#000000;
+    font-size: 2rem;
+    padding-top: 15rem
+}
+
 .about .content .link:hover {
     color:#22ac00;
     border-bottom: 0.1rem solid #22ac00;

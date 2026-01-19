@@ -144,7 +144,7 @@ section {
     color: #fff;
 }
 
-.about .content .link a:hover {
+.about .content .link:hover {
     color:#22ac00;
     border-bottom: 0.1rem solid #22ac00;
     padding-bottom: 0.5rem;

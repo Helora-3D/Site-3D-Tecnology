@@ -144,6 +144,18 @@ section {
     color: #fff;
 }
 
+.serviços .about .content a {
+     margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+.serviços .about .content a:hover {
+    color:#22ac00;
+    border-bottom: 0.1rem solid #22ac00;
+    padding-bottom: 0.5rem;
+}
+
 .hist .content {
     align-items: center;
     padding-bottom: 8rem;

@@ -210,6 +210,11 @@ section {
     font-size: 1.6rem;
 }
 
+.historia .content .button {
+align-self: center;
+
+}
+
 /*FOOTER*/
 .heading-footer {
     text-align: center;

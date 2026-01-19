@@ -144,6 +144,29 @@ section {
     color: #fff;
 }
 
+.hist .content {
+    align-items: center;
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+    padding-right: 12rem;
+    padding-left: 12rem;
+}
+
+.hist .content h1 {
+    font-size: 4.5rem;
+    padding-top: 2rem;
+}
+
+.hist .content p {
+    font-size: 1.6rem;
+}
+
+.hist .content .a {
+    display: flex;
+}
+
+
+
 /*ABOUT/SERVIÇOS*/  
 .about .row {
     display: flex;
@@ -210,10 +233,6 @@ section {
     font-size: 1.6rem;
 }
 
-.historia .content .a {
-align-self: center;
-
-}
 
 /*FOOTER*/
 .heading-footer {

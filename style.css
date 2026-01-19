@@ -173,8 +173,16 @@ section {
     font-size: 1.6rem;
 }
 
-.hist .content .btn {
-   padding-left: 50rem;
+.hist .content .link {
+    color:#000000;
+    font-size: 2rem;
+    padding-top: 15rem
+}
+
+.hist .content .link:hover {
+     color:#22ac00;
+    border-bottom: 0.1rem solid #22ac00;
+    padding-bottom: 0.5rem;
 }
 
 

@@ -144,13 +144,15 @@ section {
     color: #fff;
 }
 
-.serviços .about .content a {
+.serviços .about .content .link a {
      margin: 0 1rem;
-    font-size: 1.6rem;
+     padding-top: 15rem;
+    font-size: 2rem;
     color: #000000;
+    text-decoration: underline;
 }
 
-.serviços .about .content a:hover {
+.serviços .about .content .link a:hover {
     color:#22ac00;
     border-bottom: 0.1rem solid #22ac00;
     padding-bottom: 0.5rem;

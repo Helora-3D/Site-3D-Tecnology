@@ -107,7 +107,8 @@ section {
     min-height: 85vh;
     display: flex;
     align-items: center;
-    background-image: url("img\Capa(atras).jpg")no-repeat;
+    background-image: url("img/bannersite2.png");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }

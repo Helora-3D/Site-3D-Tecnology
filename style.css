@@ -144,13 +144,13 @@ section {
     color: #fff;
 }
 
-.serviços .content .nav a {
+.serviços .about .content a {
      margin: 0 1rem;
     font-size: 1.6rem;
     color: #000000;
 }
 
-.serviços .content .nav a:hover {
+.serviços .about .content a:hover {
     color:#22ac00;
     border-bottom: 0.1rem solid #22ac00;
     padding-bottom: 0.5rem;

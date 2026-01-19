@@ -173,7 +173,7 @@ section {
     font-size: 1.6rem;
 }
 
-.hist .content a {
+.hist .content .btn {
     align-self: center;
 }
 

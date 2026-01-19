@@ -196,6 +196,8 @@ section {
     align-items: center;
     padding-bottom: 8rem;
     padding-top: 5rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
 }
 
 .historia .content h1 {
@@ -205,8 +207,6 @@ section {
 
 .historia .content p {
     font-size: 1.6rem;
-    padding-right: 8rem;
-    padding-left: 8rem;
 }
 
 /*FOOTER*/

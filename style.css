@@ -235,6 +235,10 @@ section {
     line-height: 1.8;
 }
 
+.content .heading p {
+    padding-left: 10rem;
+}
+
 .detalhes .col .card {
     padding-bottom: 5rem;
 }

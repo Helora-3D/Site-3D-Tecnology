@@ -241,7 +241,7 @@ section {
 
 .detalhes .col .card-title {
     font-size: 2rem;
-    font-style:var(--main-color);
+    color: #0a0b32;
 }
 
 .detalhes .col .card-text {

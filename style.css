@@ -235,6 +235,14 @@ section {
     line-height: 1.8;
 }
 
+.detalhes .col .card-title {
+    font-size: 2rem;
+}
+
+.detalhes .col .card-text {
+    font-size: 1.6rem;
+}
+
 /*HISTÓRIA/QUEM SOMOS*/
 .historia .content {
     align-items: center;

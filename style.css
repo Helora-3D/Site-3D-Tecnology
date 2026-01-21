@@ -250,6 +250,7 @@ section {
 }
 
 .detalhes .col .card-text {
+    padding-right: 30rem;
     font-size: 1.6rem;
 }
 

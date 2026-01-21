@@ -240,9 +240,7 @@ section {
 }
 
 .container .card {
-    display: flex;
-    padding-bottom: 10rem;
-   
+    display: flex; 
 }
 
 .container .card-body {

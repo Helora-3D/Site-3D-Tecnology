@@ -253,6 +253,13 @@ section {
     font-size: 1.6rem;
 }
 
+
+/*AUTOMAÇÃO*/
+
+.carousel {
+    padding: 25rem 25rem 25rem 25rem;
+}
+
 /*HISTÓRIA/QUEM SOMOS*/
 .historia .content {
     align-items: center;

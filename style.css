@@ -239,17 +239,17 @@ section {
     padding-left: 10rem;
 }
 
-.detalhes .col .card {
+.container .card {
     padding-bottom: 5rem;
     padding-right: 50rem;
 }
 
-.detalhes .col .card-title {
+.container .card-body .card-title {
     font-size: 2rem;
     color: #0a0b32;
 }
 
-.detalhes .col .card-text {
+.container .card-body .card-text {
     font-size: 1.6rem;
 }
 

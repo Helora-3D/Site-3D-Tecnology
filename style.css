@@ -256,7 +256,9 @@ section {
 
 /*AUTOMAÇÃO*/
 
-
+.info .img {
+ padding: 20rem, 20rem, 20rem 20rem,;
+}
 
 /*HISTÓRIA/QUEM SOMOS*/
 .historia .content {
